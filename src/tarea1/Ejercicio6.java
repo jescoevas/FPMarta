@@ -12,15 +12,15 @@ public class Ejercicio6 {
 		String texto = sc.nextLine();
 		
 		System.out.println("Contiene mas de cinco caracteres: "+(texto.length() > 5));
-		System.out.println("Empieza con mayúscula: "+empiezaConMayuscula(texto));
-		System.out.println("Termina con minúscula: "+terminaConMinúscula(texto));
+		System.out.println("Empieza con mayÃºscula: "+empiezaConMayuscula(texto));
+		System.out.println("Termina con minÃºscula: "+terminaConMinuscula(texto));
 		System.out.println("Termina con puntos suspensivos: "+texto.endsWith("..."));
 		
 		sc.close();
 		
 	}
 
-	private static Boolean terminaConMinúscula(String texto) {
+	private static Boolean terminaConMinuscula(String texto) {
 		Character c = texto.charAt(texto.length()-1);
 		return Character.isLowerCase(c);
 	}
