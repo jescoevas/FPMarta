@@ -12,8 +12,8 @@ public class Ejercicio6 {
 		String texto = sc.nextLine();
 		
 		System.out.println("Contiene mas de cinco caracteres: "+(texto.length() > 5));
-		System.out.println("Empieza con may�scula: "+empiezaConMayuscula(texto));
-		System.out.println("Termina con min�scula: "+terminaConMinuscula(texto));
+		System.out.println("Empieza con mayuscula: "+empiezaConMayuscula(texto));
+		System.out.println("Termina con minuscula: "+terminaConMinuscula(texto));
 		System.out.println("Termina con puntos suspensivos: "+texto.endsWith("..."));
 		
 		sc.close();
